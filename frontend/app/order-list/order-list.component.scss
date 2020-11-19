@@ -1,0 +1,30 @@
+
+@import '~sass/mixins';
+@import '~sass/variables';
+
+.page__wrapper {
+    @include flex_wrapper;
+    margin-bottom: 24px;
+}
+
+.header {
+    @include header;
+}
+
+.caption {
+    margin-left: 80px;
+}
+
+.page__wrapper-page {
+    width: 90%;
+}
+
+    
+.table {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.footer {
+    @include footer;
+}

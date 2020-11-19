@@ -1,0 +1,20 @@
+@mixin flex_wrapper( $direction:row, $wrap: nowrap, $justifed: center) {
+    display: flex;
+    flex-flow: $direction, $wrap;
+    justify-content: $justifed;
+}
+
+@mixin footer {
+    background-color: #0A3847;
+    color: white;
+    text-align: center;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin header  { 
+    margin: 20px 0 60px 0;
+    border-bottom: 4px solid #ff8000;
+}
